@@ -115,15 +115,15 @@ div>hr {
 }
 
 .addbox {
-    width: 400px;
+     width: 400px;
     height: 210px;
     border: 1px solid red;
     border-radius: 10px;
-    margin-top: 250px;
-    margin-left: 470px;
     box-shadow: 6px 5px 3px rgb(214, 202, 204);
     background-color: white;
     position: absolute;
+    left: calc((100vw - 400px) /2);
+    top: calc((100vh - 210px) /2);
 
 }
 
