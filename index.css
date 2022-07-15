@@ -1,0 +1,516 @@
+.container {
+    width: 90vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+
+
+}
+
+.right {
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.task {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.list {
+    font-size: 50px;
+    color: grey;
+    margin-top: 35px;
+    font-family: sans-serif;
+
+}
+
+.left {
+    width: 10vw;
+    height: 6vh;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+.material-icons {
+    font-size: 30px !important;
+    color: rgb(199, 14, 14);
+}
+
+.add {
+    font-size: 25px;
+    color: grey;
+    padding-left: 5px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 80vw;
+    height: 50vh;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    margin-top: 100px;
+    position: absolute;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    margin-top: 20px;
+    width: 15vw;
+    height: 40vh;
+    border: 1px solid rgb(156, 36, 56);
+    border-radius: 10px;
+    box-shadow: 6px 5px 1px rgb(214, 202, 204);
+}
+
+div>hr {
+    margin-left: 40px;
+}
+
+.class1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: brown;
+}
+
+.class2 {
+    text-align: center;
+    color: rgb(206, 8, 8);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+
+.check {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 15px;
+
+}
+
+.addbox {
+    width: 400px;
+    height: 210px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 470px;
+    box-shadow: 6px 5px 3px rgb(214, 202, 204);
+    background-color: white;
+    position: absolute;
+
+}
+
+.addbox1 {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(224, 59, 59);
+}
+
+.addbox2 {
+    width: 270px;
+    height: 40px;
+    border: 1px solid rgb(219, 103, 103);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 70px;
+    box-shadow: 3px 3px 3px rgb(214, 202, 204);
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 30px;
+    font-size: 25px;
+    background-color: red;
+}
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+    filter: blur(6px);
+    position: fixed;
+}
+
+.trip {
+    width: 50vw;
+    height: 10vh;
+    margin-top: 50px;
+    margin-left: 330px;
+    display: grid;
+    grid-template-columns: auto 300px auto;
+
+}
+
+.head {
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.hr1 {
+    position: relative;
+    margin-top: 30px;
+}
+
+.tripbox {
+    margin-top: 50px;
+    margin-left: 490px;
+    width: 26vw;
+    height: 55vh;
+    border: 1px solid rgb(156, 36, 56);
+    border-radius: 10px;
+    box-shadow: 6px 5px 1px rgb(214, 202, 204);
+    position: absolute;
+
+}
+
+.check1 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 90px;
+
+}
+
+.hr2 {
+    margin-left: 110px;
+}
+
+.btn-back {
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 600px;
+    display: flex;
+
+}
+
+.back>a {
+
+    font-size: 30px;
+    color: grey;
+}
+
+.back {
+    padding: 13px;
+}
+
+.plus {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 140px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .right {
+        width: 70vw;
+        margin-left: -50px;
+        margin-top: -90px;
+        padding: 0;
+
+    }
+
+    .left {
+        margin-left: -50px;
+        margin-top: -60px;
+        position: sticky;
+
+    }
+
+    .label1,
+    .add,
+    .box4,
+    .class22,
+    .check {
+        display: none;
+    }
+
+    .material-icons {
+        font-size: 40px !important;
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        display: none;
+    }
+
+    .task,
+    .list {
+        font-size: 40px;
+    }
+
+    .list {
+        margin-top: 26px;
+    }
+
+    .box {
+        padding-top: 40px;
+        height: 60vh;
+        width: 95vw;
+        margin: 0px;
+        flex-flow: column;
+        justify-content: flex-start;
+        row-gap: 80px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 75vw;
+        height: 8vh;
+        margin: 0%;
+        text-align: left;
+        border: 1px solid rgb(240, 236, 236);
+        border-radius: 10px;
+        box-shadow: 6px 5px 1px rgb(241, 232, 233);
+
+
+    }
+
+    .class11 {
+        margin-top: 0;
+        margin-left: 5px;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 22px;
+        color: rgb(105, 104, 104);
+    }
+
+    .addbox {
+        width: 280px;
+        height: 150px;
+        margin-left: 15px;
+
+    }
+
+    .addbox1 {
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .addbox2 {
+        width: 200px;
+        height: 30px;
+        margin-left: 40px;
+    }
+
+    button {
+        margin-top: 10px;
+        margin-left: 110px;
+        border-radius: 50px;
+        padding: 4px 15px;
+        font-size: 18px;
+    }
+
+    .hr1 {
+        display: none;
+    }
+
+    .head {
+        margin-left: 90px;
+        position: fixed;
+        font-size: 30px;
+
+    }
+
+    .trip {
+        margin-left: 0px;
+
+    }
+
+    .tripbox {
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 75vw;
+        height: 60vh;
+        position: fixed;
+
+    }
+
+    .btn-back {
+        margin-top: -76px;
+        margin-left: 50px;
+        position: absolute;
+
+    }
+
+    .back {
+        display: none;
+    }
+
+    .plus {
+        bottom: 0;
+    }
+
+    .label2 {
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .check1 {
+        margin-left: 25px;
+    }
+}
+
+@media (min-width:480px) and (max-width:1000px) {
+    .add {
+        margin-top: 7px;
+        position: fixed;
+
+    }
+
+    .right {
+        width: 70vw;
+        margin-left: 3px;
+        margin-top: -90px;
+        position: fixed;
+
+    }
+
+    .left {
+        width: 30vw;
+        height: 10vh;
+        right: 75px;
+        margin-top: -60px;
+        position: fixed;
+
+    }
+
+    .back {
+        display: none;
+    }
+
+    .label1,
+    .class22,
+    .check {
+        display: none;
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        display: none;
+    }
+
+    .material-icons {
+        font-size: 40px !important;
+    }
+
+    .task,
+    .list {
+        font-size: 40px;
+    }
+
+    .list {
+        margin-top: 26px;
+    }
+
+    .box {
+        padding-top: 40px;
+        height: 60vh;
+        width: 95vw;
+        margin: 0px;
+        flex-flow: column;
+        justify-content: flex-start;
+        row-gap: 60px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 75vw;
+        height: 8vh;
+        margin: 0%;
+        border: 1px solid rgb(240, 236, 236);
+        border-radius: 10px;
+        box-shadow: 6px 5px 1px rgb(241, 232, 233);
+
+
+    }
+    .class11 {
+        margin-top: 5px;
+        margin-left: 20px;
+        text-align: left;
+        font-size: 22px;
+        color: rgb(105, 104, 104);
+    }
+
+    .addbox {
+        margin-left: 35px;
+
+    }
+    .hr1{
+        display: none;
+
+    }
+    .head{
+        width: 300px;
+        margin-left:-250px;
+        display: fixed;
+    }
+    .tag{
+        margin-top: -90px;
+        margin-left:-570px;
+        display: fixed;
+    }
+    .tripbox{
+        width: 300px;
+        margin-top: -50px;
+        margin-left: 80px;
+        bottom: auto;
+        position: fixed;
+    }
+   
+     .line5{
+        margin-left: 100px;
+        margin-top: 40px;
+    } 
+    .plus{
+        margin-top:90px ;
+
+    }
+
+}
