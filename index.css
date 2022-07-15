@@ -319,7 +319,8 @@ iframe {
     .addbox {
         width: 280px;
         height: 150px;
-        margin-left: 15px;
+        left: calc((100vw - 280px) /2);
+        top: calc((100vh - 150px) /2);
 
     }
 
